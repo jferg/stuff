@@ -18,9 +18,7 @@ q = Quantity
 
 def test_arithmetic():
     """
-    We should be able to add and subtract quantities that have the same units.
-    (We should *not* be able to add and subtract quantities with different units,
-    but you don't need to spend time on checking that here.)
+    We should be able to add and subtract quantities (at least, if they have the same units).
     """
 
     total_users = q('users', 1e4)
